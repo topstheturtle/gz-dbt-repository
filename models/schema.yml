@@ -4,12 +4,12 @@ sources:
     schema : gz_raw_data
     description: greenweez raw data source
     tables: 
-    - name: sales
-      identifier: raw_gz_sales
-      description: sales of greenwees/ we have one row per products_id found in each orders_id
-    - name: product
-      identifier: raw_gz_product
-      description: products id and purchase price
-    - name: ship
-      identifier: raw_gz_ship
-      description: shipping fee costs per orders_id
+      - name: sales
+        identifier: raw_gz_sales
+        description: sales of greenwees/ we have one row per products_id found in each orders_id
+      - name: product
+        identifier: raw_gz_product
+        description: products id and purchase price
+      - name: ship
+        identifier: raw_gz_ship
+        description: shipping fee costs per orders_id
